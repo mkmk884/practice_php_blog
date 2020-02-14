@@ -1,0 +1,23 @@
+@charset "utf-8";
+html{
+  width: 100%;
+}
+body{
+  background-color: #fcc800;
+  margin-right: auto;
+  margin-left : auto;
+  width: 60%;
+}
+/*ブログタイトル*/
+.top{
+  color: white;
+  background-color: #043c78;
+  line-height: 200px;
+  text-align: center;
+  margin-right: auto;
+  margin-left : auto;
+  height: 200px;
+}
+h2{
+  color: #043c78
+}

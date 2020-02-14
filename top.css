@@ -1,0 +1,48 @@
+@charset "utf-8";
+html{
+  width: 100%;
+}
+body{
+  background-color: #fcc800;
+  margin-right: auto;
+  margin-left : auto;
+  width: 60%;
+}
+/*ブログタイトル*/
+.top{
+  color: white;
+  background-color: #043c78;
+  line-height: 200px;
+  text-align: center;
+  margin-right: auto;
+  margin-left : auto;
+  height: 200px;
+}
+/*記事の吹き出し*/
+.post{
+  position: relative;
+  padding: 20px;
+  background-color: white;
+}
+h3{
+  color: #043c78
+}
+/*コメントの吹き出し*/
+.commentBalloon{
+  position: relative;
+  padding: 20px;
+  background-color: white;
+  display: inline-block;
+}
+.commentBalloon::before{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  left: -15px;
+  top: 20px;
+  border-right: 15px solid white;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}
